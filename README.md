@@ -1,52 +1,71 @@
-# React Student card Application
+# Online Shoe Store
+## project description 
+-In this project we create a simple react application that demonstrates an online shoe store.we use usestate and hooks in this particular program . in this we can add,remove,increase,decrese the items or complety remove a particular item in the cart managemnet.
 
-## Project Descripotion
+## features
+-display available shoes
+-add shoes to the shopping cart
+-increase item quantity
+-decrease item quantity 
+-remove items from the cart
+-display total cart amount 
+-responsive layoput
 
-This project a simple project that demonstrates the use of props i.e. properties components in the React JS library and use of those . By the help of props we display the student information .
+## technologies used
+-react
+-vite
+-javascript
+-css
 
-Each Card Displays:
--student image
--name
--course
--collage
+## project structure
+-src{app.jsx,app.css,data.js,main.jsx,index.css}
+-public{shoes images }
 
-the card also has a gradient border and are arranged in responsive layout.
+## How to Run the Project
 
-## Technologoies Used
+### 1. Install dependencies
 
--React JS
--Vite
--CSS
-
-## Features
-
--Reusable Card Component
--data pased using props
--gradient border
--student image
--responsive layout
-
-## Folder Structure
-
--src{card.jsx,data.js,app.jsx,app.css,main.jsx,index.css}
--public{the student images}
-
-## How to run the project
-
-1.open the project folder in editor or VS Code.
-2.Open the terminal.
-3.Install dependencies.
 npm install
-4.Start the development server.
+
+### 2. Start the development server
+
 npm run dev
-5.Open the browser and visit:
-http://localhost:1573
 
-## learninhg outcome
 
-I learned:
--creating reusable react components.
--passing data using props.
--displaying data using the map() function.
--applying CSS styling with gradient borders.
--Organizing a react project into seperate components.
+### 3. Open the browser
+
+Visit:http://localhost:5173
+
+## How the Application Works
+
+- The list of shoes is stored in `data.js`.
+- The application displays all available shoes.
+- Clicking **Add to Cart** adds the selected shoe to the shopping cart.
+- If the shoe is already in the cart, its quantity increases.
+- The **+** button increases the quantity.
+- The **-** button decreases the quantity.
+- The **Remove from Cart** button removes the item completely.
+- The total amount is calculated automatically based on the quantity and price of each item.
+
+## React Concepts Used
+
+- Functional Components
+- useState Hook
+- Props
+- Event Handling
+- Array map()
+- Array find()
+- Array filter()
+- Array reduce()
+
+## Learning Outcome
+
+Through this project, I learned how to:
+- Create a React application using Vite.
+- Manage state using the useState hook.
+- Display data using the map() function.
+- Update state without directly modifying it.
+- Add, update, and remove items from a shopping cart.
+- Calculate totals using the reduce() method.
+- Organize a React project into separate files.
+
