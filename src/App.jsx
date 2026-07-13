@@ -1,6 +1,6 @@
 import "./App.css";
-import students from "/src/data";
-import Card from "/src/Card";
+import students from "/src/data.js";
+import Card from "/src/Card.jsx";
 
 function App() {
   return (
